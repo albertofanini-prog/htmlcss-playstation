@@ -1,0 +1,94 @@
+/*---RESET---*/
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+/*---FC: FONT-COLOR*/
+.fc_black{
+    color: black;
+}
+
+/*MIN-H: MIN-HEIGHT*/
+
+.min_h-50{
+    min-height: 50px;
+}
+
+.min_h-100{
+    min-height: 100px;
+}
+
+.min_h-300{
+    min-height: 300px;
+}
+
+.min_h-600{
+    min-height: 600px;
+}
+/*MAX-H: MAX-HEIGHT*/
+
+.max_h-30{
+    max-height: 30px;
+}
+
+.max_h-50{
+    max-height: 50px;
+}
+
+.max_h-100{
+    max-height: 100px;
+}
+/*MIN-W: MIN-WIDTH*/
+
+.min_w-50{
+    min-width: 50px;
+}
+
+.min_w-100{
+    min-width: 100px;
+}
+
+/*MAX-W: MAX-WIDTH*/
+
+.max_w-30{
+    max-width: 30px;
+}
+
+.max_w-50{
+    max-width: 50px;
+}
+
+.max_w-100{
+ max-width: 100px;
+}
+
+.max_w-200{
+    max-width: 200px;
+}
+
+.max_w-300{
+    max-width: 300px;
+}
+
+.max_w-400{
+    max-width: 400px;
+}
+
+/*---BR: BORDER RADIUS*/
+
+.br_15{
+    border-radius: 99999px;
+}
+
+#returnal{
+    background-image: url(img/jumbo-bg.png);
+}
