@@ -76,6 +76,10 @@ img{
     max-height: 300px;
 }
 
+.max_h-500{
+    max-height: 450px;
+}
+
 /*MIN-W: MIN-WIDTH*/
 
 .min_w-50{
@@ -110,6 +114,10 @@ img{
 
 .max_w-300{
     max-width: 300px;
+}
+
+.max_w-350{
+    max-width: 350px;
 }
 
 .max_w-400{
@@ -170,3 +178,12 @@ img{
 .play_cover{
     border-radius: 15px;
 }
+
+.ps-plus_banne{
+    background-image: url(img/ps-plus-april-monthly-games-featured-image-block.png);
+}
+
+#ps_plus{
+    background-color: #BEBCBB;
+}
+
