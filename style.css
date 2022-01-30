@@ -18,6 +18,10 @@ img{
     font-size: 16px;
 }
 
+.fs_22{
+    font-size: 22px;
+}
+
 .fs_26{
     font-size: 26px;
 }
@@ -64,7 +68,7 @@ img{
     max-height: 125px;
 }
 
-.mac_h-150{
+.max_h-150{
     max-height: 150px;
 }
 
@@ -74,6 +78,10 @@ img{
 
 .max_h-300{
     max-height: 300px;
+}
+
+.mac_h-450{
+    max-height: 450px;
 }
 
 .max_h-500{
@@ -108,6 +116,10 @@ img{
     max-width: 125px;
 }
 
+.max_w-150{
+    max-width: 150px;
+}
+
 .max_w-200{
     max-width: 200px;
 }
@@ -124,6 +136,9 @@ img{
     max-width: 400px;
 }
 
+.max_w-600{
+    max-width: 600px;
+}
 /*---BR: BORDER RADIUS*/
 
 .br_15{
@@ -170,20 +185,36 @@ img{
     opacity: 0.7;
 }
 
-#shop_item.active, #shop_item:hover{
+#shop_item.active{
     opacity: 1;
     border-bottom: 3px solid blue;
+}
+
+#shop_item:hover{
+    opacity: 1;
+    border-bottom: 3px solid blue;
+    transition: all 0.1s ease-in-out;
+    transform: translateY(-15px);
 }
 
 .play_cover{
     border-radius: 15px;
 }
 
-.ps-plus_banne{
-    background-image: url(img/ps-plus-april-monthly-games-featured-image-block.png);
+#ps-plus_banner{
 }
 
 #ps_plus{
     background-color: #BEBCBB;
 }
 
+/*---BG: BACKGROUND-COLOR---*/
+
+.bg_ps{
+
+    background-color: #161C3B;
+}
+
+.white_c{
+    color: white;    
+}
