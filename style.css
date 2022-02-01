@@ -6,6 +6,7 @@ ul{
 
 a{
     text-decoration: none;
+    color: currentColor;
 }
 
 img{
@@ -133,7 +134,7 @@ img{
 }
 
 .max_w-400{
-    max-width: 400px;
+    max-width: 400px; 
 }
 
 .max_w-600{
@@ -218,3 +219,10 @@ img{
 .white_c{
     color: white;    
 }
+
+.social:hover{
+    transition: all 0.1s ease-in-out;
+    transform: translateY(-15px);
+}
+
+/*---NAVBAR---*/
